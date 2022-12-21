@@ -38,11 +38,12 @@ HEADER RULES
 
 .nav-row {
     display: flex;
-    align-items: center;c
+    align-items: center;
 }
 
 .nav-item {
     padding: 0 10px;
+    font-size: 18px;
 }
 
 .nav-item.logo {
@@ -50,20 +51,44 @@ HEADER RULES
 }
 
 .nav-item.button {
-    padding-right: 0px;
+    /* padding-right: 0px; */
     background-color: #0061FF;
     line-height: 36px;
     color: white;
 }
 
 /***********************************************
+MAIN RULES
+***********************************************/
+
+
+
+
+
+/***********************************************
 DEBUG RULES
 ***********************************************/
 
-.debug .main-header {
-    border: 2px solid black;
-}
+/************ headdebug ************/
 
-.debug .nav-row {
+/* .debug .main-header {
+    border: 2px solid black;
+} */
+
+/* .debug .nav-row {
     border: 2px solid red;
-}
+} */
+
+/************ maindebug ************/
+
+/* .main-content {
+    border: 2px solid black;
+    min-height: 1000px;
+} */
+
+/************ footdebug ************/
+
+/* .main-footer {
+    border: 2px solid black;
+    min-height: 400px;
+} */
