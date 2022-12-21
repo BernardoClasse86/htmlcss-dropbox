@@ -12,3 +12,58 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+/***********************************************
+HEADER RULES
+***********************************************/
+
+.main-header {
+    padding: 24px 20px;
+}
+
+.head-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-row {
+    display: flex;
+    align-items: center;c
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-item.logo {
+    padding-left: 0px;
+}
+
+.nav-item.button {
+    padding-right: 0px;
+    background-color: #0061FF;
+    line-height: 36px;
+    color: white;
+}
+
+/***********************************************
+DEBUG RULES
+***********************************************/
+
+.debug .main-header {
+    border: 2px solid black;
+}
+
+.debug .nav-row {
+    border: 2px solid red;
+}
