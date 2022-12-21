@@ -214,11 +214,73 @@ MAIN RULES
     line-height: 44px;
 }
 
-.buy
+.buy {
+    padding-top: 34px;
+}
+
+.buy > p {
+    display: inline-block;
+    padding-right: 6px;
+    padding-bottom: 42px;
+    border-bottom: 2px solid #DCDCDE;
+}
 
 .buynow {
-
+    color: blue;
+    text-decoration: underline;
 }
+
+.plan-steps {
+    padding-top: 54px;
+}
+
+.plan-points {
+    font-size: 18px;
+    padding-bottom: 34px;
+}
+
+.plan-steps-row > li {
+    padding-bottom: 24px;
+}
+
+.plan-item > i {
+    color: #4273FF;
+}
+
+.work-offer {
+    padding: 34px 30px;
+}
+
+.work-offer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 22px;
+}
+
+.work-offer-col {
+    padding: 0 10px;
+}
+
+.sell-office-button {
+    background-color: #0061FF;
+    color: white;
+    line-height: 44px;
+}
+
+.work-offer-title {
+    padding-left: 0px;
+}
+
+.work-offer-text-row {
+    display: flex;
+    padding-top: 52px;
+}
+
+.work-offer-text-col {
+    flex-basis: calc(100% * (9 / 12));
+}
+
 /***********************************************
 DEBUG RULES
 ***********************************************/
@@ -235,15 +297,15 @@ DEBUG RULES
 
 /************ maindebug ************/
 
-.main-content {
+/* .main-content {
     border: 2px solid black;
     min-height: 1000px;
-}
+} */
 
-.section-plans {
+/* .section-plans {
     border: 2px dotted red;
     min-height: 1650px;
-}
+} */
 
 /* .container-hero {
     border: 2px solid yellowgreen;
@@ -256,18 +318,18 @@ DEBUG RULES
     min-height: 200px;
 } */
 
-.debug .plans-container {
+/* .debug .plans-container {
     border: 2px solid blue;
     min-height: 1620px;
-}
+} */
 
-.debug [class^=card-] {
+/* .debug [class^=card-] {
     min-height: 100px;
-}
+} */
 /************ footdebug ************/
 
-.main-footer {
+/* .main-footer {
     border: 2px solid black;
     min-height: 400px;
-}
+} */
 
