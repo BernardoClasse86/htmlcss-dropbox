@@ -145,6 +145,80 @@ MAIN RULES
     padding-right: 20px;
 }
 
+/************ CARDS ************/
+
+.plans-card-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 48px;
+    justify-content: space-between;
+}
+
+.card-col {
+    flex-basis: 30%;
+}
+
+.card-col-orizontal {
+    flex-basis: 100%;
+    margin-top: 50px;
+}
+
+.debug [class^=card-] {
+    border: 2px solid #DCDCDE;
+}
+
+/************ CARDS CONTENT ************/
+
+.member {
+    text-align: center;
+    border-bottom: 2px solid #DCDCDE;
+    padding: 8px;
+}
+
+.offers {
+    padding: 38px 30px;
+}
+
+.single-offer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;   
+}
+
+.offer-title {
+    font-size: 22px;
+}
+
+.offer-period {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.offer-list {
+    padding-bottom: 54px;
+}
+
+.offer-list-row {
+    display: flex;
+    flex-direction: column;
+    padding-top: 48px;
+}
+
+.offer-list-row > li {
+    padding-top: 24px;
+}
+
+.offer-button {
+    text-align: center;
+    background-color: #0061FF;
+    color: white;
+    line-height: 44px;
+}
+
+.buy
+
+.buynow {
+
+}
 /***********************************************
 DEBUG RULES
 ***********************************************/
@@ -187,6 +261,9 @@ DEBUG RULES
     min-height: 1620px;
 }
 
+.debug [class^=card-] {
+    min-height: 100px;
+}
 /************ footdebug ************/
 
 .main-footer {
