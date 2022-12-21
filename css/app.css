@@ -51,7 +51,6 @@ HEADER RULES
 }
 
 .nav-item.button {
-    /* padding-right: 0px; */
     background-color: #0061FF;
     line-height: 36px;
     color: white;
@@ -61,9 +60,63 @@ HEADER RULES
 MAIN RULES
 ***********************************************/
 
+/************ HERO ************/
 
+.section-hero {
+    background-color: #B4D0E7;
+}
 
+.container-hero {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 110px 42px 45px;
+}
 
+.hero-row {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+
+.hero-col-title {
+    flex-basis: 100%;
+    font-size: 56px;
+    padding-bottom: 64px;
+}
+
+.hero-col-text {
+    flex-basis: calc(100% * (4 / 12));
+    position: relative;
+}
+
+.hero-col-img {
+    flex-basis: calc(100% * (8 / 12));
+}
+
+.hero-open {
+    padding-bottom: 36px;
+}
+
+.hero-button {
+    background-color: #0061FF;
+    color: white;
+    width: 238px;
+    text-align: center;
+    line-height: 44px;
+}
+
+.hero-undo {
+    padding-top: 36px;
+}
+
+.arrow {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 50px;
+}
+
+/************ HERO ************/
 
 /***********************************************
 DEBUG RULES
@@ -86,9 +139,26 @@ DEBUG RULES
     min-height: 1000px;
 } */
 
+/* .section-hero {
+    border: 2px dotted red;
+    min-height: 890px;
+} */
+
+/* .container-hero {
+    border: 2px solid yellowgreen;
+    min-height: 750px;
+} */
+
+
+/* .debug [class^=hero-] {
+    border: 2px dotted black;
+    min-height: 200px;
+} */
+
 /************ footdebug ************/
 
-/* .main-footer {
+.main-footer {
     border: 2px solid black;
     min-height: 400px;
-} */
+}
+
