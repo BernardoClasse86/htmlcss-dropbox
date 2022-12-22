@@ -421,8 +421,24 @@ MAIN RULES
 
 /************ /OUTRO ************/
 
+/************ PARTNERS ************/
 
+.partners-row {
+    display: flex;
+}
 
+.partners-col {
+    flex-basis: calc(100% / 3);
+}
+
+.partners-col-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    flex-basis: 50%;
+}
 /***********************************************
 DEBUG RULES
 ***********************************************/
@@ -519,6 +535,19 @@ DEBUG RULES
     border: 2px solid red;
     min-height: 200px;
 } */
+
+.debug .partners-row {
+    border: 2px solid black;
+}
+
+.debug [class^="partners-col"] {
+    min-height: 400px;
+    border: 2px dotted red;
+}
+
+.debug .square {
+    border: 2px solid blue;
+}
 /************ footdebug ************/
 
 .main-footer {
