@@ -567,6 +567,48 @@ MAIN RULES
     padding: 10px 54px;
     background-color: white;
 }
+
+/************ /BUISNESS TRIAL ************/
+
+/************ QUESTIONS ************/
+
+.questions-container {
+    max-width: 1042px;
+    margin: 0 auto;
+    padding: 140px 20px 140px;
+}
+
+.question-row {
+    display: flex;
+}
+
+.questions-col {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.questions-col.head {
+    padding-bottom: 72px;
+    border-bottom: 1px solid black;
+}
+
+.questions-col.text {
+    font-weight: bold;
+    padding: 42px 0;
+    border-bottom: 1px solid black;
+}
+
+.question-title {
+    font-size: 44px;
+}
+
+.chevron {
+    font-size: 10px;
+    padding-right: 44px;
+}
+
+/************ /QUESTIONS ************/
 /***********************************************
 DEBUG RULES
 ***********************************************/
@@ -686,5 +728,6 @@ DEBUG RULES
 .main-footer {
     border: 2px solid black;
     min-height: 400px;
+    background-color: black;
 }
 
