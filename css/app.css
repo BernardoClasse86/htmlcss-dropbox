@@ -23,6 +23,10 @@ img {
     width: 100%;
 }
 
+svg {
+    color:white;
+}
+
 /***********************************************
 HEADER RULES
 ***********************************************/
@@ -434,10 +438,39 @@ MAIN RULES
 .partners-col-row {
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .square {
     flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    height: 332px;
+}
+
+.square > svg {
+    max-width: 50%;
+}
+
+/***** PARTNERS COLOUR *****/
+
+.green-square {
+    background-color: #A2D39B;
+    border: 15px solid #D1E9CD;
+    padding: 15px;
+    color: white;
+}
+
+.darkred-square {
+    background-color: #61082B;
+}
+
+.lightblue-square {
+    background-color: #0093CE;
+}
+
+.red-square {
+    background-color: #FF1C1C;
 }
 /***********************************************
 DEBUG RULES
@@ -545,9 +578,9 @@ DEBUG RULES
     border: 2px dotted red;
 }
 
-.debug .square {
+/* .debug .square {
     border: 2px solid blue;
-}
+} */
 /************ footdebug ************/
 
 .main-footer {
