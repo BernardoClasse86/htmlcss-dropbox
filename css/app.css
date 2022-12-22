@@ -24,7 +24,7 @@ img {
 }
 
 svg {
-    color:white;
+    fill: white;
 }
 
 /***********************************************
@@ -446,10 +446,32 @@ MAIN RULES
     display: flex;
     justify-content: center;
     height: 332px;
+    align-items: center;
 }
 
-.square > svg {
+.partners-col-middle {
+    padding: 52px 52px;
+    background-color: #F5F5F5;
+}
+
+.partner-logo {
     max-width: 50%;
+}
+
+.logo-img {
+    padding-bottom: 44px;
+}
+
+.partner-logo::after {
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 112px;
+    background: #DFDFE1;
+}
+
+.partners-text {
+    padding: 42px 0 58px;
 }
 
 /***** PARTNERS COLOUR *****/
@@ -457,12 +479,18 @@ MAIN RULES
 .green-square {
     background-color: #A2D39B;
     border: 15px solid #D1E9CD;
-    padding: 15px;
-    color: white;
+}
+
+.green-square > svg {
+    max-width: 50%;
 }
 
 .darkred-square {
     background-color: #61082B;
+}
+
+.darkred-square > svg {
+    max-width: 50%;
 }
 
 .lightblue-square {
@@ -472,6 +500,41 @@ MAIN RULES
 .red-square {
     background-color: #FF1C1C;
 }
+
+.red-square > svg {
+    max-width: 50%;
+}
+
+.cyan-square {
+    background-color: #B4D0E7;
+}
+
+.cyan-square > svg {
+    max-width: 50%;
+}
+
+.blue-square {
+    background-color: #0D2481;
+}
+
+.blue-square > svg {
+    max-width: 50%;
+}
+
+.yellow-square {
+    background-color: #FFD830;
+}
+
+.yellow-square > svg {
+    max-width: 50%;
+}
+
+/***** PARTNERS COLOUR *****/
+
+/************ /PARTNERS ************/
+
+
+
 /***********************************************
 DEBUG RULES
 ***********************************************/
@@ -569,14 +632,14 @@ DEBUG RULES
     min-height: 200px;
 } */
 
-.debug .partners-row {
+/* .debug .partners-row {
     border: 2px solid black;
-}
+} */
 
-.debug [class^="partners-col"] {
+/* .debug [class^="partners-col"] {
     min-height: 400px;
     border: 2px dotted red;
-}
+} */
 
 /* .debug .square {
     border: 2px solid blue;
