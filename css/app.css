@@ -362,7 +362,38 @@ MAIN RULES
 
 /************ /INTRO************/
 
+/************ /UTILITIES************/
 
+.utilities-container {
+    max-width: 1042px;
+    margin: 0 auto;
+    padding: 124px 20px 0;
+}
+
+.utilities-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.utilities-col-title {
+    flex-basis: 100%;
+    padding-bottom: 84px;
+    font-size: 28px;
+}
+
+.utilities-col-card {
+    flex-basis: 30%;
+}
+
+.utilities-col-card.top-card {
+    padding-bottom: 82px;
+}
+
+.utilities-title {
+    padding-bottom: 16px;
+    font-size: 22px;
+}
 /***********************************************
 DEBUG RULES
 ***********************************************/
@@ -428,6 +459,24 @@ DEBUG RULES
     border: 2px solid blue;
     min-height: 200px;
 } */
+
+.debug .utilities-container {
+    border: 2px solid yellowgreen;
+    min-height: 1000px;
+}
+
+.debug .utilities-row {
+    border: 2px solid green;
+}
+
+.debug .utilities-col {
+    border: 2px dotted blue;
+    min-height: 300px;
+}
+
+.debug [class^=utilities-col] {
+    border: 2px dotted purple;
+}
 /************ footdebug ************/
 
 .main-footer {
