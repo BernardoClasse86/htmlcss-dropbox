@@ -329,12 +329,39 @@ MAIN RULES
 }
 
 .intro-col-img {
-    flex-basis: calc(100% * (8 / 12));
+    flex-basis: calc(100% * (7 / 12));
 }
 
 .intro-col-text {
-    flex-basis: calc(100% * (4/12));
+    flex-basis: calc(100% * (5 / 12));
+    padding: 58px 30px;
 }
+
+.intro-service {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+[class="intro__"] {
+    flex-basis: 100%;
+}
+
+.intro__title {
+    padding-bottom: 16px;
+    font-size: 22px;
+}
+
+.intro__text {
+    padding-bottom: 32px;
+}
+
+.intro__button {
+    border: 1px solid black;
+    padding: 12px 12px;
+}
+
+/************ /INTRO************/
+
 
 /***********************************************
 DEBUG RULES
@@ -382,29 +409,29 @@ DEBUG RULES
     min-height: 100px;
 } */
 
-.debug .section-intro {
+/* .debug .section-intro {
     background-color: white;
     border: 2px solid red;
     min-height: 1600px;
-}
+} */
 
-.debug .intro-container {
+/* .debug .intro-container {
     border: 2px solid yellowgreen;
     min-height: 1000px;
-}
+} */
 
-.debug .intro-row {
+/* .debug .intro-row {
     border: 2px solid green;
-}
+} */
 
-.debug [class^="intro-col"]{
+/* .debug [class^="intro-col"]{
     border: 2px solid blue;
     min-height: 200px;
-}
+} */
 /************ footdebug ************/
 
-/* .main-footer {
+.main-footer {
     border: 2px solid black;
     min-height: 400px;
-} */
+}
 
