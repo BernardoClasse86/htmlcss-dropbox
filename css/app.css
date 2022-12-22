@@ -42,17 +42,22 @@ HEADER RULES
 }
 
 .nav-item {
-    padding: 0 10px;
     font-size: 18px;
+    line-height: 36px;
+}
+
+.nav-item > a {
+    padding: 0 10px;
 }
 
 .nav-item.logo {
+    padding-right: 10px;
     padding-left: 0px;
+    line-height: unset;
 }
 
 .nav-item.button {
     background-color: #0061FF;
-    line-height: 36px;
     color: white;
 }
 
@@ -97,12 +102,16 @@ MAIN RULES
     padding-bottom: 36px;
 }
 
-.hero-button {
+.button {
     background-color: #0061FF;
     color: white;
-    width: 238px;
     text-align: center;
     line-height: 44px;
+    padding: 0 10px;
+}
+
+.button.trial {
+    width: max-content;
 }
 
 .hero-undo {
@@ -120,10 +129,15 @@ MAIN RULES
 
 /************ PLANS ************/
 
+.section-plans {
+    background-color: white;
+    margin-top: -124px;
+}
+
 .plans-container {
     max-width: 1042px;
     margin: 0 auto;
-    padding: 48px 20px 0;
+    padding: 124px 20px 0;
 }
 
 .plans-open {
@@ -207,11 +221,18 @@ MAIN RULES
     padding-top: 24px;
 }
 
-.offer-button {
-    text-align: center;
-    background-color: #0061FF;
-    color: white;
-    line-height: 44px;
+.offer-list-3 {
+    padding-bottom: 32px;
+}
+
+.offer-item-row {
+    display: flex;
+    align-items: flex-start;
+}
+
+.offer-item-row > i {
+    padding-right: 6px;
+    padding-top: 3px;
 }
 
 .buy {
@@ -243,8 +264,15 @@ MAIN RULES
     padding-bottom: 24px;
 }
 
+.plan-item-row {
+    display: flex;
+    align-items: flex-start;
+}
+
 .plan-item > i {
     color: #4273FF;
+    padding-right: 6px;
+    padding-top: 6px;
 }
 
 .work-offer {
@@ -270,6 +298,11 @@ MAIN RULES
 
 .work-offer-title {
     padding-left: 0px;
+}
+
+.reminder {
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .work-offer-text-row {
