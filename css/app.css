@@ -394,6 +394,10 @@ MAIN RULES
     padding-bottom: 16px;
     font-size: 22px;
 }
+
+/************ /UTILITIES************/
+
+
 /***********************************************
 DEBUG RULES
 ***********************************************/
@@ -460,23 +464,23 @@ DEBUG RULES
     min-height: 200px;
 } */
 
-.debug .utilities-container {
+/* .debug .utilities-container {
     border: 2px solid yellowgreen;
     min-height: 1000px;
-}
+} */
 
-.debug .utilities-row {
+/* .debug .utilities-row {
     border: 2px solid green;
-}
+} */
 
-.debug .utilities-col {
+/* .debug .utilities-col {
     border: 2px dotted blue;
     min-height: 300px;
-}
+} */
 
-.debug [class^=utilities-col] {
+/* .debug [class^=utilities-col] {
     border: 2px dotted purple;
-}
+} */
 /************ footdebug ************/
 
 .main-footer {
