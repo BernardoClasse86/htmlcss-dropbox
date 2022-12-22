@@ -314,6 +314,28 @@ MAIN RULES
     flex-basis: calc(100% * (9 / 12));
 }
 
+/************ /PLANS ************/
+
+/************ INTRO************/
+
+.intro-container {
+    max-width: 1042px;
+    margin: 0 auto;
+    padding: 124px 20px 0;
+}
+
+.intro-row {
+    display: flex;
+}
+
+.intro-col-img {
+    flex-basis: calc(100% * (8 / 12));
+}
+
+.intro-col-text {
+    flex-basis: calc(100% * (4/12));
+}
+
 /***********************************************
 DEBUG RULES
 ***********************************************/
@@ -335,16 +357,16 @@ DEBUG RULES
     min-height: 1000px;
 } */
 
-/* .section-plans {
-    border: 2px dotted red;
-    min-height: 1650px;
-} */
 
 /* .container-hero {
     border: 2px solid yellowgreen;
     min-height: 750px;
 } */
 
+/* .section-plans {
+    border: 2px dotted red;
+    min-height: 1650px;
+} */
 
 /* .debug [class^=hero-] {
     border: 2px dotted black;
@@ -359,6 +381,26 @@ DEBUG RULES
 /* .debug [class^=card-] {
     min-height: 100px;
 } */
+
+.debug .section-intro {
+    background-color: white;
+    border: 2px solid red;
+    min-height: 1600px;
+}
+
+.debug .intro-container {
+    border: 2px solid yellowgreen;
+    min-height: 1000px;
+}
+
+.debug .intro-row {
+    border: 2px solid green;
+}
+
+.debug [class^="intro-col"]{
+    border: 2px solid blue;
+    min-height: 200px;
+}
 /************ footdebug ************/
 
 /* .main-footer {
