@@ -438,7 +438,6 @@ MAIN RULES
 .partners-col-row {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .square {
@@ -533,8 +532,41 @@ MAIN RULES
 
 /************ /PARTNERS ************/
 
+/************ BUISNESS TRIAL ************/
 
+.section-buisness-trial {
+    background-color: #B4D0E7;
+}
 
+.buisness-trial-container {
+    max-width: 1042px;
+    margin: 0 auto;
+    padding: 140px 20px 140px;
+}
+
+.buisness-trial-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buisness-trial-col-title {
+    flex-basis: 60%;
+}
+
+.buisness-trial-col-button {
+    padding-bottom: 60px;
+}
+
+.buisness-trial-title {
+    font-size: 44px;
+    color: #61082B;
+}
+
+.buisness-trial-button {
+    padding: 10px 54px;
+    background-color: white;
+}
 /***********************************************
 DEBUG RULES
 ***********************************************/
@@ -644,6 +676,11 @@ DEBUG RULES
 /* .debug .square {
     border: 2px solid blue;
 } */
+
+/* .debug .buisness-trial-container {
+    border: 2px solid yellowgreen;
+} */
+
 /************ footdebug ************/
 
 .main-footer {
