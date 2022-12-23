@@ -23,10 +23,6 @@ img {
     width: 100%;
 }
 
-svg {
-    fill: white;
-}
-
 /***********************************************
 HEADER RULES
 ***********************************************/
@@ -444,8 +440,8 @@ MAIN RULES
     flex-basis: 50%;
     display: flex;
     justify-content: center;
-    height: 332px;
     align-items: center;
+    aspect-ratio: 1;
 }
 
 .partners-col-middle {
@@ -475,21 +471,18 @@ MAIN RULES
 
 /***** PARTNERS COLOUR *****/
 
+.square > img {
+    filter: invert(100);
+    max-width: 50%;
+}
+
 .green-square {
     background-color: #A2D39B;
     border: 15px solid #D1E9CD;
 }
 
-.green-square > svg {
-    max-width: 50%;
-}
-
 .darkred-square {
     background-color: #61082B;
-}
-
-.darkred-square > svg {
-    max-width: 50%;
 }
 
 .lightblue-square {
@@ -500,35 +493,19 @@ MAIN RULES
     background-color: #FF1C1C;
 }
 
-.red-square > svg {
-    max-width: 50%;
-}
-
 .cyan-square {
     background-color: #B4D0E7;
-}
-
-.cyan-square > svg {
-    max-width: 50%;
 }
 
 .blue-square {
     background-color: #0D2481;
 }
 
-.blue-square > svg {
-    max-width: 50%;
-}
-
 .yellow-square {
     background-color: #FFD830;
 }
 
-.yellow-square > svg {
-    max-width: 50%;
-}
-
-/***** PARTNERS COLOUR *****/
+/***** /PARTNERS COLOUR *****/
 
 /************ /PARTNERS ************/
 
@@ -594,6 +571,7 @@ MAIN RULES
 }
 
 .questions-col.text {
+    font-size: 18px;
     font-weight: bold;
     padding: 42px 0;
     border-bottom: 1px solid black;
@@ -609,6 +587,56 @@ MAIN RULES
 }
 
 /************ /QUESTIONS ************/
+
+/************ FOOTER ************/
+
+.main-footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 110px 42px 52px;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 122px;
+}
+
+.footer-col {
+    flex-basis: calc(100% * (1 / 5));
+}
+
+.footer-list-item-title {
+    font-weight: bold;
+    font-size: 28px;
+    padding-bottom: 38px;
+}
+
+ul > .footer-list-item {
+    padding-bottom: 22px;
+}
+
+.language:before {
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 125px;
+    background: #DFDFE1;
+    margin-bottom: 54px;
+}
+
+.language-choice {
+    color: #9B9B9B;
+}
+
+/************ /FOOTER ************/
+
 /***********************************************
 DEBUG RULES
 ***********************************************/
@@ -725,9 +753,19 @@ DEBUG RULES
 
 /************ footdebug ************/
 
-.main-footer {
-    border: 2px solid black;
+/* .debug .main-footer {
     min-height: 400px;
-    background-color: black;
-}
+} */
+
+/* .debug .footer-container {
+    border: 2px solid yellowgreen;
+} */
+
+/* .debug .footer-row {
+    border: 2px solid red;
+} */
+
+/* .debug .footer-col {
+    border: 2px solid green;
+} */
 
